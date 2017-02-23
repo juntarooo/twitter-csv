@@ -1,0 +1,23 @@
+{
+  "name": "tweetsdler",
+  "version": "1.0.0",
+  "description": "dls some tweets to a csv file",
+  "main": "scrape.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http-server": "^0.9.0",
+    "jquery": "^3.1.1",
+    "twit": "^2.2.5"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  },
+  "scripts": {
+    "test": "node scrape.js"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "sp",
+  "license": "ISC"
+}
